@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".navigation.WebRadioFragment">
+
+    <ImageView
+        android:id="@+id/playIcon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/play"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2230px"
+        android:text="@string/_2020_atelier164_the_mgp_radio"
+        android:textAlignment="center" />
+
+</FrameLayout>

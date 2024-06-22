@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_webRadio"
+        android:icon="@mipmap/radio"
+        android:title="webRadio" />
+    <item
+        android:id="@+id/nav_liveStream"
+        android:icon="@mipmap/live"
+        android:title="liveStream" />
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@mipmap/blog"
+        android:title="news" />
+    <item
+        android:id="@+id/nav_podcast"
+        android:icon="@mipmap/podcast"
+        android:title="podcast" />
+</menu>
